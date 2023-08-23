@@ -1,0 +1,36 @@
+INSERT INTO DIM_CUSTOMERS(
+    CUSTOMER_SURR_ID,
+    SOURCE_SYSTEM,
+    SOURCE_TABLE,
+    SOURCE_ID,
+    CUSTOMER_FIRST_NAME,
+    CUSTOMER_LAST_NAME,
+    CUSTOMER_GENDER,
+    CUSTOMER_DOB,
+    CUSTOMER_JOB_TITLE,
+    CUSTOMER_JOB_ID,
+    CUSTOMER_JOB_INDUSTRY_CATEGORY,
+    CUSTOMER_JOB_INDUSTRY_CATEGORY_ID,
+    CUSTOMER_WEALTH_SEGMENT,
+    OWNS_CAR,
+    insert_dt,
+    update_dt)
+VALUES(
+    -99,
+    'N/A',
+    'N/A',
+    'N/A',
+    'N/A',
+    'N/A',
+    'N/A',
+    TO_DATE('9999-12-31', 'YYYY-MM-DD'),
+    'N/A',
+    -99,
+    'N/A',
+    -99,
+    'N/A',
+    'N/A',
+    SYSDATE,
+    SYSDATE);
+
+COMMIT;
