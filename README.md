@@ -27,3 +27,5 @@ The objective of this course project is to develop a database intended for the "
 A Database Management System (DBMS) is a combination of software and linguistic tools of general or specific purpose that provide management of database creation and utilization.
 
 For the development and management of the course project's database, the Oracle Database 12c relational database management system was used due to its performance and reliability. Additionally, the graphical interface Oracle SQL Developer was employed for its intuitive clarity and broad spectrum of capabilities.
+
+4. In the folder EpamProject you can find the description of the project in Bussiness_template folder
