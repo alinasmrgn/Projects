@@ -29,3 +29,32 @@ A Database Management System (DBMS) is a combination of software and linguistic 
 For the development and management of the course project's database, the Oracle Database 12c relational database management system was used due to its performance and reliability. Additionally, the graphical interface Oracle SQL Developer was employed for its intuitive clarity and broad spectrum of capabilities.
 
 4. In the folder EpamProject you can find the description of the project in Bussiness_template folder
+
+5. In the folder 'pyTeleBot' you can find my latest project. This Telegram bot is designed to assist users in translating words between Polish and Russian languages. It connects to a PostgreSQL database to provide translations when available and allows users to add new word translations to the database. Also! It has a quiz game for language learning and entertainment.
+Key Features:
+
+- Translation Service:
+	Users can use the /translate command to access the translation service.
+	The bot can translate words between Polish and Russian.
+	It connects to a PostgreSQL database ("polish") to fetch translations.
+- Quiz Game:
+	Users can initiate a quiz by using the /quiz command.
+	The bot randomly selects a word from its database and provides its Russian translation.
+	Users are presented with multiple options for the corresponding Polish translation of the word.
+	Users can select an option, and the bot provides feedback on the correctness of their choice.
+- Adding Words to the Database:
+	When a translation is not found, the bot prompts the user to add the word to the database.
+	Users can input the translation, and the bot adds the word and its translation to the database.
+- Database Interaction:
+	The bot uses a Database class to manage database connections and execute SQL queries.
+	It ensures that the database connection is established.
+- Inline Keyboard Markup:
+	During the quiz, the bot presents answer choices using inline keyboard markup to provide a user-friendly interface.
+- Error Handling:
+	The bot handles user responses and provides clear messages to guide users through the translation process and quiz game.
+
+Usage Example:
+User sends the /translate command.
+User inputs a word in Polish or Russian.
+The bot fetches the translation from the database and provides it to the user.
+If no translation is found, the bot asks the user if they want to
